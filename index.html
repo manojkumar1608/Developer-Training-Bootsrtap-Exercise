@@ -34,7 +34,7 @@
       </div>
       <!-- middle-section -->
       <div id="center_section" class="d-flex flex-column flex-md-row">
-        <div id="mypage_leftnav" class="">
+        <div id="mypage_leftnav" class="d-flex justify-content-center">
           <div class="d-flex align-items-start my-3 mx-1 my-md-5 mx-md-5">
             <div
               class="nav flex-row flex-md-column nav-pills"
@@ -54,8 +54,10 @@
                 data-bs-toggle="tooltip"
                 title="objective"
               >
-                <span class="bi bi-bullseye"></span
-                ><span class="tab-heading">Objective</span>
+                <div>
+                  <span class="bi bi-bullseye"></span
+                  ><span class="tab-heading">Objective</span>
+                </div>
               </button>
               <button
                 class="nav-link p-2 p-md-3"
@@ -69,8 +71,10 @@
                 data-bs-toggle="tooltip"
                 title="educational background"
               >
-                <span class="bi bi-mortarboard-fill"></span
-                ><span class="tab-heading">Education</span>
+                <div>
+                  <span class="bi bi-mortarboard-fill"></span
+                  ><span class="tab-heading">Education</span>
+                </div>
               </button>
               <button
                 class="nav-link p-2 p-md-3"
@@ -84,8 +88,10 @@
                 data-bs-toggle="tooltip"
                 title="work experience"
               >
-                <span class="bi bi-briefcase-fill"></span
-                ><span class="tab-heading">Experience</span>
+                <div>
+                  <span class="bi bi-briefcase-fill"></span
+                  ><span class="tab-heading">Experience</span>
+                </div>
               </button>
               <button
                 class="nav-link p-2 p-md-3"
@@ -99,8 +105,10 @@
                 data-bs-toggle="tooltip"
                 title="Explore your projects"
               >
-                <span class="bi bi-window-stack"></span
-                ><span class="tab-heading">Projects</span>
+                <div>
+                  <span class="bi bi-window-stack"></span
+                  ><span class="tab-heading">Projects</span>
+                </div>
               </button>
               <button
                 class="nav-link p-2 p-md-3"
@@ -114,8 +122,10 @@
                 data-bs-toggle="tooltip"
                 title="references"
               >
-                <span class="bi bi-people"></span
-                ><span class="tab-heading">References</span>
+                <div>
+                  <span class="bi bi-people"></span
+                  ><span class="tab-heading">References</span>
+                </div>
               </button>
             </div>
           </div>
@@ -289,24 +299,6 @@
                 placeholder="e.g., apple, banana, cherry, date"
                 required
               />
-              <datalist id="languages">
-                <option value="AppleScript"></option>
-                <option value="Asp"></option>
-                <option value="Bash"></option>
-                <option value="C"></option>
-                <option value="C++"></option>
-                <option value="Clojure"></option>
-                <option value="COBOL"></option>
-                <option value="ColdFusion"></option>
-                <option value="Java"></option>
-                <option value="JavaScript"></option>
-                <option value="Perl"></option>
-                <option value="PHP"></option>
-                <option value="Python"></option>
-                <option value="Ruby"></option>
-                <option value="Scala"></option>
-                <option value="Scheme"></option>
-              </datalist>
             </div>
             <div class="d-flex justify-content-center">
               <button type="submit" id="findLongestBtn" class="btn btn-danger">
@@ -372,7 +364,7 @@
               <h5 class="modal-title" id="myModalLabel">Footer</h5>
               <button
                 type="button"
-                class="btn-close"
+                class="btn-close btn"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>

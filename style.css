@@ -54,21 +54,21 @@
   letter-spacing: 2px;
 }
 
-.bi {
-  display: none;
-}
-
 .nav-link {
-  /* width: 300px; */
+  display: flex !important;
+  width: 150px;
   font-weight: bold !important;
   color: #5f5858 !important;
   font-family: "Poppins", sans-serif !important;
 }
 
 .nav-link.active {
-  /* font-size: 1.2rem; */
+  font-size: 1rem;
   border: 2px solid #4b4444;
   background-color: #88a2ff !important;
+}
+.tab-heading {
+  margin-left: 6px;
 }
 
 .nav-link:hover {
@@ -123,6 +123,9 @@
   .footer-info {
     font-size: 0.6rem;
   }
+  .nav-link {
+    width: auto;
+  }
   .tab-heading {
     display: none;
   }
@@ -143,6 +146,13 @@
   }
   .header-name {
     font-size: 1.5rem;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-link {
+    width: auto;
   }
 
   .footer-title {
