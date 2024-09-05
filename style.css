@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: var(--font);
 }
-
 :root {
   --primary: #4f1787;
   --primary-dark: #efecec;
@@ -14,65 +13,46 @@
   --bg: #180161;
   --font: "Oswald", sans-serif;
 }
-
 #wrapper {
   max-width: 1200px;
 }
-
 #mypage_header {
   background-color: var(--bg);
   height: 100px;
   color: var(--primary-dark);
   box-sizing: border-box;
 }
-
 #mypage_header nav {
-  height: 100px;
   color: var(--primary-dark);
   box-sizing: border-box;
 }
-
 .header-name {
   font-size: 2.2rem;
   letter-spacing: 2px;
 }
-
 .nav-link {
   width: 150px;
   color: #5f5858 !important;
   font-family: "Poppins", sans-serif !important;
 }
-
 .nav-link.active {
   font-size: 1rem;
   border: 2px solid #4b4444;
   background-color: #88a2ff !important;
 }
-.tab-heading {
-  margin-left: 6px;
-}
-
 .nav-link:hover {
   color: darkred;
   background-color: rgb(222, 218, 234);
 }
-
 #mypage_footer {
   background-color: var(--bg);
-  padding: 20px;
-  border-top: 6px solid var(--primary);
-  border-bottom: 2px solid var(--primary);
-  text-align: center;
   color: var(--primary-dark);
 }
-
 .footer-title {
   font-size: 1.6rem;
 }
-
 .footer-info {
   font-size: 1rem;
-  text-align: left;
 }
 
 /* Responsive Design */
@@ -83,23 +63,16 @@
   .header-name {
     font-size: 1.2rem;
   }
-
   .footer-title {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
   .footer-info {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .nav-link {
     width: auto;
   }
-  .tab-heading {
-    display: none;
-  }
   .bi {
-    display: block;
-    margin: 1px 12px;
-    padding: 1px;
     font-size: large;
   }
 }
@@ -111,34 +84,22 @@
   .header-name {
     font-size: 1.5rem;
   }
-  .nav {
-    display: flex;
-    justify-content: space-between;
-  }
   .nav-link {
     width: auto;
   }
-
   .footer-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .footer-info {
     font-size: 0.8rem;
   }
-  .tab-heading {
-    display: none;
-  }
   .bi {
-    display: block;
-    margin: 1px 16px;
-    padding: 1px;
     font-size: larger;
   }
 }
 .container {
   font-family: "Poppins", sans-serif;
 }
-
 /* Container styling */
 .card {
   width: 500px;
@@ -149,28 +110,22 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 /* Result and error messages styling */
 #max_result,
 #reverse_result,
 #longestWord_result,
 #cookie_result {
   font-size: 18px;
-  text-align: center;
 }
-
 #max_error,
 #cookie_error,
 #longestWord_error,
 #reverse_error {
-  margin-top: 15px;
   font-size: 18px;
-  text-align: center;
 }
 .red-asterisk {
   font-size: 20px;
 }
-
 /* Styles for screens below 300px */
 @media only screen and (max-width: 300px) {
   .card {
@@ -178,7 +133,6 @@
     padding: 15px;
   }
 }
-
 /* Styles for screens between 300px and 400px */
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   .card {
